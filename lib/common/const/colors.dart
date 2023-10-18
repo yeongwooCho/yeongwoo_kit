@@ -13,9 +13,9 @@ class MyColor {
   static const error = Color(0xFFFF555F);
 
   // Background Color
+  static const scaffoldBackground = Color(0xFFFFFFFF);
   static const barrier = Color(0X661C1C1E);
   static const empty = Color(0X00000000);
-  static const background = Color(0xFFFFFFFF);
 
   // Grey
   static const darkGrey = Color(0xFF888888);
