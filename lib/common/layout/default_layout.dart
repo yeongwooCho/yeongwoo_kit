@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:yeongwoo_kit/common/component/custom_loading.dart';
 import 'package:yeongwoo_kit/common/const/colors.dart';
 
 class DefaultLayout extends StatelessWidget {
@@ -42,7 +43,7 @@ class DefaultLayout extends StatelessWidget {
         Positioned.fill(
           child: Visibility(
             visible: isLoading,
-            child: loadingWidget ?? const CircularProgressIndicator(),
+            child: loadingWidget ?? const CustomLoadingScreen(),
           ),
         )
       ],
