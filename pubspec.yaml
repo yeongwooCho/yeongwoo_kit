@@ -42,6 +42,8 @@ dependencies:
   # Util
   intl: 0.18.1 # 국가 관련
   fluttertoast: ^8.2.2 # toast
+  flutter_localizations: # intl 0.18.0 을 의존하고 있음
+    sdk: flutter
 
   # Network
   dio: ^5.3.3
