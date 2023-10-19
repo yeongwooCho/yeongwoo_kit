@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:yeongwoo_kit/common/const/colors.dart';
-import 'package:yeongwoo_kit/common/const/text_style.dart';
-import 'package:yeongwoo_kit/common/layout/default_layout.dart';
+
+import '../const/text_style.dart';
+import '../layout/default_layout.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);

@@ -5,8 +5,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/date_symbol_data_local.dart';
-import 'package:yeongwoo_kit/common/variable/routes.dart';
-import 'package:yeongwoo_kit/common/view/splash_screen.dart';
+
+import 'common/variable/routes.dart';
+import 'common/view/splash_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

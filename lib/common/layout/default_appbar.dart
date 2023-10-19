@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:yeongwoo_kit/common/const/colors.dart';
+
+import '../const/colors.dart';
 
 class DefaultAppBar extends StatelessWidget implements PreferredSizeWidget {
   static const defaultAppBarHeight = 60.0;

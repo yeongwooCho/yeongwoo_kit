@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:yeongwoo_kit/common/const/colors.dart';
-import 'package:yeongwoo_kit/common/const/text_style.dart';
+
+import '../../const/colors.dart';
+import '../../const/text_style.dart';
 
 void showCustomToast(
   context, {

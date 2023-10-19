@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:yeongwoo_kit/common/component/custom_list_card.dart';
-import 'package:yeongwoo_kit/common/const/colors.dart';
-import 'package:yeongwoo_kit/common/const/text_style.dart';
-import 'package:yeongwoo_kit/common/layout/default_appbar.dart';
-import 'package:yeongwoo_kit/common/layout/default_layout.dart';
-import 'package:yeongwoo_kit/common/view/custom_list_screen.dart';
-import 'package:yeongwoo_kit/notification/provider/notification_provider.dart';
+
+import '../../common/component/custom_list_card.dart';
+import '../../common/const/colors.dart';
+import '../../common/const/text_style.dart';
+import '../../common/layout/default_appbar.dart';
+import '../../common/layout/default_layout.dart';
+import '../../common/view/custom_list_screen.dart';
+import '../provider/notification_provider.dart';
 
 class NotificationScreen extends StatelessWidget {
   const NotificationScreen({Key? key}) : super(key: key);

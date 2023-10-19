@@ -2,7 +2,8 @@ import 'dart:developer';
 
 import 'package:dio/dio.dart';
 import 'package:intl/intl.dart';
-import 'package:yeongwoo_kit/common/const/urls.dart';
+
+import '../const/urls.dart';
 
 class LoggingInterceptor extends Interceptor {
   @override

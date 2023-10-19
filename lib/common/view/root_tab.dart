@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:yeongwoo_kit/common/const/colors.dart';
-import 'package:yeongwoo_kit/common/layout/default_layout.dart';
+
+import '../const/colors.dart';
+import '../layout/default_layout.dart';
 
 class RootTab extends StatefulWidget {
   const RootTab({Key? key}) : super(key: key);

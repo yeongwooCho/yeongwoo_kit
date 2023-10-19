@@ -1,9 +1,10 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:yeongwoo_kit/common/api/logging_interceptor.dart';
-import 'package:yeongwoo_kit/common/const/urls.dart';
-import 'package:yeongwoo_kit/common/model/app_info.dart';
+
+import '../const/urls.dart';
+import '../model/app_info.dart';
+import 'logging_interceptor.dart';
 
 class BaseDio {
   Dio? dio;

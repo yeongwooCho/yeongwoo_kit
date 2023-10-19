@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:yeongwoo_kit/notification/model/notification_model.dart';
-import 'package:yeongwoo_kit/notification/repository/notification_repository.dart';
+
+import '../model/notification_model.dart';
+import '../repository/notification_repository.dart';
 
 class NotificationProvider extends ChangeNotifier {
   final NotificationRepository repository;

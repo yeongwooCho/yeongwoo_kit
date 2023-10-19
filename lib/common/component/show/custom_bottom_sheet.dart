@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:yeongwoo_kit/common/const/colors.dart';
+
+import '../../const/colors.dart';
 
 void showBottomWidget({
   required BuildContext context,

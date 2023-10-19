@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:yeongwoo_kit/common/component/custom_loading.dart';
-import 'package:yeongwoo_kit/common/const/colors.dart';
+
+import '../component/custom_loading.dart';
+import '../const/colors.dart';
 
 class DefaultLayout extends StatelessWidget {
   final Widget child;

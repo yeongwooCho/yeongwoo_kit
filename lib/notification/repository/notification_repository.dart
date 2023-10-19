@@ -1,9 +1,10 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:yeongwoo_kit/common/api/base_api.dart';
-import 'package:yeongwoo_kit/common/const/urls.dart';
-import 'package:yeongwoo_kit/common/model/api_response.dart';
-import 'package:yeongwoo_kit/notification/model/notification_model.dart';
+
+import '../../common/api/base_api.dart';
+import '../../common/const/urls.dart';
+import '../../common/model/api_response.dart';
+import '../model/notification_model.dart';
 
 class NotificationRepository {
   final _dio = BaseDio().buildDio();
