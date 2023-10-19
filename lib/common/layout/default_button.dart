@@ -4,8 +4,8 @@ import '../const/colors.dart';
 import '../const/text_style.dart';
 
 class DefaultElevatedButton extends StatelessWidget {
-  final Widget child;
   final VoidCallback onPressed;
+  final Widget child;
   final Color foregroundColor;
   final Color backgroundColor;
   final TextStyle? textStyle;
@@ -16,8 +16,8 @@ class DefaultElevatedButton extends StatelessWidget {
 
   const DefaultElevatedButton({
     super.key,
-    required this.child,
     required this.onPressed,
+    required this.child,
     this.foregroundColor = MyColor.whiteText,
     this.backgroundColor = MyColor.primary,
     this.textStyle = MyTextStyle.bodyBold,
