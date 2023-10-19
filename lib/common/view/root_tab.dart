@@ -23,6 +23,7 @@ class _RootTabState extends State<RootTab> with TickerProviderStateMixin {
       vsync: this,
       initialIndex: 1,
     );
+    controller?.addListener(tabListener);
   }
 
   @override
