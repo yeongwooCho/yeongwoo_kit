@@ -29,5 +29,6 @@ void showAlert({
         ],
       );
     },
+    barrierDismissible: true,
   );
 }
