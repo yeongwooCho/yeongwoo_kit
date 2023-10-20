@@ -41,7 +41,7 @@ class CustomTextFormField extends StatelessWidget {
     // ui
     this.title,
     this.button,
-    this.textStyle = MyTextStyle.description,
+    this.textStyle = MyTextStyle.descriptionRegular,
     this.obscureText = false,
     this.contentPaddingVertical = 8.0,
     this.hintText,

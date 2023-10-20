@@ -39,7 +39,7 @@ class CustomListCard extends StatelessWidget {
                     const SizedBox(height: 8.0),
                     Text(
                       description,
-                      style: MyTextStyle.description,
+                      style: MyTextStyle.descriptionRegular,
                     ),
                   ],
                 ),
